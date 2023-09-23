@@ -1,0 +1,73 @@
+.frame-child1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--studio-darkmode-allwhite-ffffff);
+  width: 1319px;
+  height: 227px;
+}
+.oct-18th {
+  position: absolute;
+  top: 179px;
+  left: 0;
+  line-height: 18px;
+}
+.image-18-icon1 {
+  position: absolute;
+  top: 0;
+  left: 2px;
+  border-radius: var(--br-10xl);
+  width: 304px;
+  height: 172px;
+  object-fit: cover;
+}
+.oct-18th-parent {
+  position: absolute;
+  top: 18px;
+  left: 668px;
+  width: 306px;
+  height: 197px;
+}
+.nov-7th {
+  position: absolute;
+  top: 181px;
+  left: 1px;
+  line-height: 18px;
+}
+.image-19-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-10xl);
+  width: 304px;
+  height: 172px;
+  object-fit: cover;
+}
+.aug-18th-parent,
+.nov-7th-parent,
+.sep-22nd-parent {
+  position: absolute;
+  top: 18px;
+  left: 996px;
+  width: 304px;
+  height: 199px;
+}
+.aug-18th-parent,
+.sep-22nd-parent {
+  left: 344px;
+}
+.aug-18th-parent {
+  left: 18px;
+}
+.rectangle-container {
+  position: absolute;
+  top: 76px;
+  left: 0;
+  width: 1319px;
+  height: 227px;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
