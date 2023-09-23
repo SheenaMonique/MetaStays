@@ -1,6 +1,5 @@
-
-"use client";
 import { useEffect, useState } from "react";
+"use client";
 import "./globals.css";
 import { polygonMumbai, polygon } from "wagmi/chains";
 import { configureChains, createConfig, WagmiConfig } from "wagmi";
