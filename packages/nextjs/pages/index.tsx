@@ -8,12 +8,11 @@ import {
   createTheme,
   StyledEngineProvider,
 } from "@mui/material";
-import type { NextPage } from "next";
 import { useCallback } from "react";
-import Footer from "../components/footer";
+import Footer from "../components/figma/footer";
 import { useRouter } from "next/router";
 import styles from "./index.module.css";
-import "./global.css";
+import "~~/styles/globals.css";
 
 const muiTheme = createTheme();
 
