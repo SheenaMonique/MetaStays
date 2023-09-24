@@ -1,0 +1,102 @@
+.noPropertiesOwned {
+  margin: 0;
+}
+.noPropertiesOwnedContainer1 {
+  line-break: anywhere;
+  width: 100%;
+}
+.noPropertiesOwnedContainer {
+  position: absolute;
+  top: 0;
+  left: 109px;
+  font-size: var(--font-size-9xl);
+  line-height: 18px;
+  color: var(--color-firebrick);
+  display: flex;
+  align-items: center;
+  width: 314px;
+  height: 43px;
+  cursor: pointer;
+}
+.buttonChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-mini);
+  background-color: var(--color-firebrick);
+  width: 349px;
+  height: 60px;
+}
+.addProperty {
+  position: absolute;
+  top: 8px;
+  left: 17px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 315px;
+  height: 45px;
+}
+.button,
+.wantToUpload {
+  position: absolute;
+  cursor: pointer;
+}
+.button {
+  top: 180px;
+  left: 84px;
+  width: 349px;
+  height: 60px;
+  color: var(--studio-darkmode-allwhite-ffffff);
+  font-family: var(--font-fipps);
+}
+.wantToUpload {
+  top: 75px;
+  left: 0;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 519px;
+  height: 47px;
+}
+.unlock1Icon {
+  position: absolute;
+  top: 0;
+  left: 353px;
+  width: 134px;
+  height: 38px;
+  object-fit: cover;
+  mix-blend-mode: hard-light;
+}
+.createAProperty {
+  position: absolute;
+  top: 7px;
+  left: 0;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 353px;
+  height: 31px;
+}
+.unlock1Parent {
+  position: absolute;
+  top: 285px;
+  left: 2px;
+  width: 516px;
+  height: 38px;
+  cursor: pointer;
+}
+.noPropertiesOwnedParent {
+  position: absolute;
+  top: calc(50% - 219px);
+  left: calc(50% - 259px);
+  width: 519px;
+  height: 323px;
+  text-align: center;
+  font-size: var(--font-size-6xl);
+  color: var(--color-gray-300);
+  font-family: var(--font-inter);
+}

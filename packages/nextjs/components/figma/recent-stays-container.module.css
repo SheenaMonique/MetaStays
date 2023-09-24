@@ -1,0 +1,84 @@
+.frameChild,
+.oct18th {
+  position: absolute;
+  left: 0;
+}
+.frameChild {
+  top: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--studio-darkmode-allwhite-ffffff);
+  width: 1319px;
+  height: 227px;
+}
+.oct18th {
+  top: 182px;
+  line-height: 18px;
+}
+.image18Icon {
+  position: absolute;
+  top: 0;
+  left: 2px;
+  border-radius: var(--br-10xl);
+  width: 304px;
+  height: 172px;
+  object-fit: cover;
+}
+.oct18thParent {
+  position: absolute;
+  top: 18px;
+  left: 668px;
+  width: 306px;
+  height: 197px;
+}
+.nov7th {
+  position: absolute;
+  top: 182px;
+  left: 1px;
+  line-height: 18px;
+}
+.image19Icon,
+.nov7thParent {
+  position: absolute;
+  width: 304px;
+}
+.image19Icon {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-10xl);
+  height: 172px;
+  object-fit: cover;
+}
+.nov7thParent {
+  top: 18px;
+  left: 996px;
+  height: 199px;
+}
+.murderHouseneverChecked {
+  position: absolute;
+  top: 182px;
+  left: -1px;
+  line-height: 18px;
+}
+.aug18thParent,
+.murderHouseneverCheckedOutParent,
+.rectangleParent {
+  position: absolute;
+  top: 18px;
+  left: 344px;
+  width: 304px;
+  height: 199px;
+}
+.aug18thParent,
+.rectangleParent {
+  left: 18px;
+}
+.rectangleParent {
+  top: 76px;
+  left: 0;
+  width: 1319px;
+  height: 227px;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

@@ -1,0 +1,130 @@
+.metastays,
+.whereRealEstate {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.metastays {
+  line-height: 27px;
+  width: 338px;
+  height: 69px;
+  cursor: pointer;
+}
+.whereRealEstate {
+  letter-spacing: 0.04em;
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--color-midnightblue);
+  width: 774px;
+  height: 58px;
+}
+.hamburgerMenuIcon {
+  position: relative;
+  width: 37px;
+  height: 25px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.capturaDePantalla13481 {
+  position: relative;
+  border-radius: var(--br-999981xl);
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
+.accountSection,
+.navigationRight,
+.topContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.accountSection {
+  width: 152px;
+  height: 70px;
+  justify-content: center;
+  gap: var(--gap-xs);
+}
+.navigationRight,
+.topContainer {
+  width: 605px;
+  justify-content: flex-end;
+}
+.topContainer {
+  position: absolute;
+  top: -0.5px;
+  left: 0;
+  width: 1795px;
+  height: 128px;
+  justify-content: space-between;
+}
+.subheader {
+  position: relative;
+  width: 1795px;
+  height: 128px;
+}
+.radio,
+.radio1 {
+  position: absolute;
+  overflow: wrap;
+}
+.radio {
+  top: 0;
+  left: 135px;
+  cursor: pointer;
+}
+.radio1 {
+  top: 0.38px;
+  left: 0;
+}
+.flightType {
+  position: relative;
+  width: 310px;
+  height: 38.38px;
+}
+.header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: var(--studio-darkmode-allwhite-ffffff);
+  width: 100%;
+  height: 199px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-3xl) var(--padding-61xl);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  background: #fff;
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--color-firebrick);
+  font-family: var(--font-fipps);
+}
+@media screen and (max-width: 1200px) {
+  .header {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 960px) {
+  .hamburgerMenuIcon {
+    display: flex;
+  }
+  .header {
+    padding-left: var(--padding-5xl);
+    padding-right: var(--padding-5xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 420px) {
+  .navigationRight {
+    display: flex;
+  }
+  .flightType {
+    width: 100% !important;
+  }
+}
