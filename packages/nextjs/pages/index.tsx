@@ -12,7 +12,6 @@ import { useCallback } from "react";
 import Footer from "../components/figma/footer";
 import { useRouter } from "next/router";
 import styles from "./index.module.css";
-import "~~/styles/globals.css";
 
 const muiTheme = createTheme();
 
