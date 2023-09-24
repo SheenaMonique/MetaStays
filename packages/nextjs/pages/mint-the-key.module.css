@@ -1,0 +1,160 @@
+.image18Icon,
+.informationChild {
+  position: relative;
+  border-radius: var(--br-11xl);
+}
+.image18Icon {
+  width: 812px;
+  height: 627px;
+  object-fit: cover;
+}
+.informationChild {
+  width: 864px;
+  height: 619px;
+}
+.information {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 61px;
+}
+.buttonChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-mini);
+  background-color: var(--color-firebrick);
+  width: 241px;
+  height: 60px;
+}
+.mintKey {
+  position: absolute;
+  top: 9px;
+  left: 27px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 188px;
+  height: 45px;
+}
+.button {
+  position: absolute;
+  top: 540px;
+  left: 1440px;
+  width: 241px;
+  height: 60px;
+  cursor: pointer;
+  font-family: var(--font-fipps);
+}
+.wannaMetastayTxtContainer {
+  line-break: anywhere;
+  width: 100%;
+}
+.wannaMetastay {
+  position: absolute;
+  top: 507px;
+  left: 1447px;
+  line-height: 18px;
+  display: flex;
+  color: var(--color-gray-300);
+  align-items: center;
+  width: 228px;
+  height: 42px;
+}
+.frameChild {
+  top: 537px;
+  left: 925px;
+  width: 153px;
+  height: 57px;
+  overflow: hidden;
+}
+.b,
+.frameChild,
+.vectorIcon {
+  position: absolute;
+}
+.b {
+  top: 524px;
+  left: 1006px;
+  font-size: 30px;
+  letter-spacing: 0.04em;
+  display: inline-block;
+  color: var(--color-black);
+  text-align: left;
+  width: 57px;
+}
+.vectorIcon {
+  height: 7.2%;
+  width: 2.77%;
+  top: 76.91%;
+  right: 42.8%;
+  bottom: 15.89%;
+  left: 54.42%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.informationParent {
+  position: absolute;
+  top: 278px;
+  left: 107px;
+  width: 1729px;
+  height: 667px;
+  text-align: center;
+  color: var(--studio-darkmode-allwhite-ffffff);
+}
+.welcomeToPierContainer {
+  position: absolute;
+  top: 340px;
+  left: 1040px;
+  font-size: var(--font-size-5xl);
+  display: inline-block;
+  width: 734px;
+  height: 121px;
+}
+.venueCapacity {
+  margin: 0;
+}
+.seatedDinnerUpTo1200Gue {
+  margin-bottom: 0;
+}
+.cocktailReceptionUpTo200 {
+  margin: 0;
+  padding-left: 32px;
+}
+.from {
+  font-family: var(--font-inter);
+}
+.venueCapacityCocktailContainer {
+  position: absolute;
+  top: 528px;
+  left: 1040px;
+  font-size: inherit;
+  display: inline-block;
+  width: 652px;
+  height: 203px;
+}
+.headHouseIcon {
+  position: absolute;
+  top: 148px;
+  left: 1578px;
+  width: 192px;
+  height: 196px;
+  overflow: hidden;
+}
+.mintTheKey {
+  position: relative;
+  background-color: var(--studio-darkmode-allwhite-ffffff);
+  width: 100%;
+  height: 1186px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
